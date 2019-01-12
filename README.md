@@ -10,7 +10,7 @@ A 2048 game api for training supervised learning (imitation learning) or reinfor
 * [`Net.py`](Net.py/):定义了卷积神经网络。
 * [`train.py`](train.py):训练模型的函数，包括加载数据集，数据预处理，模型训练。运行此代码得到model.pth并保存在model文件夹里。
 * [`model/`](model/):模型文件[`model.pth`](model.pth)。
-* [`DataSet/`](DataSet/):运行* [`training_data.py`](training_data.py)得到数据集。 
+* [`DataSet/`](DataSet/):运行[`training_data.py`](training_data.py)得到数据集。 
 * [`explore.ipynb`](explore.ipynb): introduce how to use the `Agent`, `Display` and `Game`.
 * [`static/`](static/): frontend assets (based on Vue.js) for web app.
 * [`webapp.py`](webapp.py): run the web app (backend) demo.
